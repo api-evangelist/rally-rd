@@ -1,7 +1,29 @@
 aid: rally-rd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rally-rd.png
 name: Rally Rd
-description: Rally Rd is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rally (formerly Rally Rd.) is a New York-based alternative-asset investment
+  platform that lets everyday investors buy and sell equity shares in collectible
+  assets — classic cars, watches, art, wine, sports memorabilia, natural-history
+  artifacts, musical instruments and first-edition books. Rally sources and
+  authenticates each item, registers it with the SEC as a security through
+  FINRA/SIPC registered broker-dealer partners, splits it into equity shares, and
+  opens an Initial Offering in its iOS, Android and web app where investors of all
+  sizes can buy in from as little as $50 and later trade via in-app Bid/Ask.
+  Rally was surfaced as a portfolio company of Anthemis. It publishes no public
+  developer API or developer portal; this profile captures its verified public
+  identity and web properties.
 url: https://raw.githubusercontent.com/api-evangelist/rally-rd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,40 @@ x-backed-by:
 - anthemis
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Investing
+- Alternative Assets
+- Collectibles
+- Fractional Ownership
+- Fintech
+- Consumer App
+- Securities
 apis: []
+common:
+- type: Website
+  url: https://rallyrd.com/
+- type: HelpCenter
+  url: https://rallyrd.com/faq/
+- type: Blog
+  url: https://rallyrd.com/stories-by-rally/
+- type: Login
+  url: https://app.rallyrd.com/login
+- type: TermsOfService
+  url: https://rallyrd.com/privacy/
+- type: PrivacyPolicy
+  url: https://rallyrd.com/privacy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
